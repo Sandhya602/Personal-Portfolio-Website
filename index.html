@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandhya Shree B V | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans scroll-smooth">
+
+  <!-- Navbar -->
+  <header class="bg-gray-100 shadow-md fixed w-full z-10">
+    <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Sandhya</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+        <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="pt-28 pb-16 bg-blue-50 text-center">
+    <img src="images/avatar.png" alt="Avatar" class="w-32 mx-auto rounded-full mb-4">
+    <h2 class="text-3xl font-bold">Sandhya Shree B V</h2>
+    <p class="text-lg text-blue-600 mt-2">Web Developer & Designer</p>
+    <p class="italic mt-2">"Designing with logic. Building with passion."</p>
+    <a href="pages/resume.pdf" download class="mt-4 inline-block bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition">Download Resume</a>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-bold mb-6 text-center">About Me</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div>
+          <p>
+            Hello! I'm a Computer Science student passionate about web development and creating intuitive user interfaces. I enjoy learning new technologies and turning ideas into reality through code.
+          </p>
+          <p class="mt-2">
+            My goal is to become a full-stack developer and contribute to meaningful software projects that solve real-world problems.
+          </p>
+        </div>
+        <div>
+          <h4 class="text-xl font-semibold mb-2">Skills</h4>
+          <ul class="list-disc list-inside mb-4">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Tailwind CSS</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+          </ul>
+
+          <h4 class="text-xl font-semibold mb-2">Education</h4>
+          <ul class="space-y-1">
+            <li><strong>B.E. in Computer Science</strong><br />Vijaya Vittala Institute of Technology (2022 - 2026)</li>
+            <li>PUC - Science Stream (PCMC) - 2020-2022</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16">
+    <div class="container mx-auto px-4">
+      <h3 class="text-2xl font-bold mb-8 text-center">Projects</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Project 1 -->
+        <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg hover:scale-105 transition">
+          <img src="images/project1.png" alt="Project 1" class="w-full rounded mb-4">
+          <h4 class="text-lg font-semibold">CharityChain</h4>
+          <p class="text-sm">Blockchain-powered donation tracking app.</p>
+          <a href="#" class="text-blue-500 text-sm mt-2 inline-block">View on GitHub</a>
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg hover:scale-105 transition">
+          <img src="images/project2.png" alt="Project 2" class="w-full rounded mb-4">
+          <h4 class="text-lg font-semibold">Student Predictor</h4>
+          <p class="text-sm">ML app to predict pass/fail based on scores.</p>
+          <a href="#" class="text-blue-500 text-sm mt-2 inline-block">View on GitHub</a>
+        </div>
+        <!-- Project 3 -->
+        <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg hover:scale-105 transition">
+          <img src="images/project3.png" alt="Project 3" class="w-full rounded mb-4">
+          <h4 class="text-lg font-semibold">Weather App</h4>
+          <p class="text-sm">Simple weather forecast app using OpenWeather API.</p>
+          <a href="#" class="text-blue-500 text-sm mt-2 inline-block">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4 max-w-xl">
+      <h3 class="text-2xl font-bold mb-6 text-center">Contact Me</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Name" class="w-full border p-3 rounded" required>
+        <input type="email" placeholder="Email" class="w-full border p-3 rounded" required>
+        <textarea placeholder="Message" rows="4" class="w-full border p-3 rounded" required></textarea>
+        <button type="submit" class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-blue-50 mt-10">
+    <p>&copy; 2025 Sandhya Shree B V. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
 
